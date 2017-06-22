@@ -7,10 +7,12 @@ import seller from './components/seller/seller.vue';
 import ratings from './components/ratings/ratings.vue';
 import header from './components/header/header.vue';
 import App from './App';
+import VueResource from 'vue-resource';
 
 import './common/stylus/index.styl';
 
 Vue.use(VueRouter);
+Vue.use(VueResource);
 
 const routes = [
   { path: '/goods', component: goods },
