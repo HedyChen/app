@@ -17,8 +17,18 @@
           <span class="text">{{seller.supports[0].description}}</span>
         </div>
       </div>
+      <div class="support-count">
+      	<span class="count">{{seller.supports.length}}个</span>
+      	<i class="icon-keyboard_arrow_right"></i>
+      </div>
     </div>
-    <div class="bulluetin-wrapper"></div>
+    <div class="bulluetin-wrapper">
+      <span class="bulluetin-title"></span><span class="bulluetin-text">{{seller.bulletin}}</span>
+      <i class="icon-keyboard_arrow_right"></i>
+    </div>
+    <div class="background">
+    	<img :src="seller.avatar" width="100%" height="100%">
+    </div>
   </div>
 </template>
 
@@ -39,8 +49,11 @@
   @import "../../common/stylus/mixin.styl"
   #header
     color: #fff
-    background: #000
+    position relative
+    overflow hidden
+    background rgba(7,17,27,0.5)
     .content-wrapper
+      position relative
       padding 24px 12px 18px 24px
       font-size 0
       .avatar
@@ -93,9 +106,57 @@
             line-height 12px
             font-size 10px
             color #fff
-              
-              
-        	
-            
-
+	  .support-count
+	  	position absolute
+	  	right 12px
+	  	bottom 14px
+	  	padding 0 8px
+	  	height 24px
+	  	line-height 24px
+	  	border-radius 14px
+	  	background rgba(0,0,0,0.2)
+	  	text-align center
+	  	.count
+	  		vertical-align top
+	  		font-size 10px
+	  		margin-left 2px
+	  	.icon-keyboard_arrow_right
+	  		line-height 24px
+	  		margin-left 2px
+	  		font-size 12px
+	.bulluetin-wrapper
+	  position relative
+	  height 28px
+	  line-height 28px
+	  padding 0 22px 0 12px
+	  white-space nowrap
+	  overflow hidden
+	  text-overflow ellipsis
+	  background rgba(7,17,27,0.2)
+	  .bulluetin-title
+	  	vertical-align top
+	  	display inline-block
+	  	width 22px
+	  	height 12px
+	  	bg-img('bulletin')
+	  	background-size 22px 12px
+	  	background-repeat no-repeat
+	  	margin-top 7px
+	  .bulluetin-text
+	  	vertical-align top
+	  	font-size 10px
+	  	margin 0 4px
+	  .icon-keyboard_arrow_right
+	  	position absolute
+	  	font-size 12px
+	  	right 12px
+	  	top 10px
+	.background
+	  position absolute
+	  top 0px
+	  left 0
+	  width 100%
+	  height 100%
+	  z-index -1
+	  filter blur(10px)
 </style>
