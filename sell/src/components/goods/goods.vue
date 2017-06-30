@@ -9,7 +9,7 @@
     </div>
     <div class="foods-wrapper" id="foods-scroll">
       <ul>
-        <li v-for="item in goods" class="food-list">
+        <li v-for="item in goods" class="food-list food-list-hook">
           <h1 class="title">{{item.name}}</h1>
           <ul>
             <li v-for="food in item.foods" class="food-item border-1px border-none">
@@ -47,7 +47,8 @@
     },
     data () {
       return {
-        goods: []
+        goods: [],
+        listHeight: []
       };
     },
     created () {
@@ -58,6 +59,7 @@
           this.goods = response.data;
           this.$nextTick(() => {
             this._initScroll();
+            this._caculateHeight();
           });
         }
       });
@@ -66,6 +68,16 @@
       _initScroll () {
         this.menuScroll = new Bscroll(document.getElementById('menu-scroll'), {});
         this.foodScroll = new Bscroll(document.getElementById('foods-scroll'), {});
+      },
+      _caculateHeight () {
+        let foodList = this.$el.getElementsByClassName('food-list-hook');
+        let height = 0;
+        this.listHeight.push(height);
+        for (let i = 0; i < foodList.length; i++) {
+          let item = foodList[i];
+          height += item.clientHeight;
+          this.listHeight.push(height);
+        }
       }
     }
   };
@@ -154,10 +166,10 @@
             font-size 10px
             color rgb(147, 153, 159)
             margin-bottom 8px
-          .desc
-            line-height 12px
             .all-count
               padding-right 12px
+          .desc
+            line-height 12px
           .price
             line-height 24px
             font-weight 700
