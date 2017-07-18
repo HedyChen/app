@@ -48,8 +48,20 @@
     data () {
       return {
         goods: [],
-        listHeight: []
+        listHeight: [],
+        scrollY: 0
       };
+    },
+    computed: {
+      currentIndex () {
+        for (let i = 0; i < this.listHeight.length; i++) {
+          let height1 = this.listHeight[i];
+          let heoght2 = this.listHeight[i + 1];
+          if (!heoght2 || (this.scrollY > height1 && this.scrollY < heoght2)) {
+            return i;
+          }
+        }
+      }
     },
     created () {
       this.classMap = ['decrease', 'discount', 'special', 'invoice', 'guarantee'];
@@ -67,7 +79,12 @@
     methods: {
       _initScroll () {
         this.menuScroll = new Bscroll(document.getElementById('menu-scroll'), {});
-        this.foodScroll = new Bscroll(document.getElementById('foods-scroll'), {});
+        this.foodScroll = new Bscroll(document.getElementById('foods-scroll'), {
+          probeType: 3
+        });
+        this.foodScroll.on('scroll', (pos) => {
+          this.scrollY = Math.abs(Math.round(pos.y));
+        });
       },
       _caculateHeight () {
         let foodList = this.$el.getElementsByClassName('food-list-hook');
@@ -96,6 +113,13 @@
       flex 0 0 80px
       width 80px
       background #f3f5f7
+      .current
+        position relative
+        margin-top -1px
+        z-index 10
+        background #fff
+        font-weight 700
+        border none
       .menu-item
         display table
         height 54px

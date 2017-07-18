@@ -1,0 +1,91 @@
+<MKM version="2.0" imageFileUrl="file:///C:/Users/Administrator/Desktop/resource/PSD/%e5%a4%96%e5%8d%9601_%e5%95%86%e5%93%81%e9%a1%b5.png">
+  <Marks>
+    <LengthMark direction="3" color="16711680" length="48" x="55" y="0"/>
+    <LengthMark direction="12" color="16711680" length="48" x="0" y="53"/>
+    <LengthMark direction="12" color="16711680" length="128" x="48" y="165"/>
+    <LengthMark direction="3" color="16711680" length="36" x="58" y="176"/>
+    <LengthMark direction="12" color="16711680" length="32" x="176" y="71"/>
+    <LengthMark direction="12" color="16711680" length="24" x="726" y="112"/>
+    <LengthMark direction="3" color="16711680" length="14" x="718" y="168"/>
+    <LengthMark direction="12" color="16711680" length="4" x="692" y="189"/>
+    <LengthMark direction="12" color="16711680" length="16" x="640" y="189"/>
+    <LengthMark direction="3" color="16711680" length="128" x="153" y="48"/>
+    <LengthMark direction="12" color="16711680" length="12" x="268" y="54"/>
+    <LengthMark direction="3" color="16711680" length="20" x="201" y="128"/>
+    <LengthMark direction="3" color="16711680" length="16" x="202" y="88"/>
+    <TextMark defaultDirection="9" direction="9" color="16711680" x="61" y="42" textMaxWidth="147" offsetX="42" offsetY="19" text="border-radius：4px"/>
+    <TextMark defaultDirection="10" direction="10" color="16711680" x="380" y="259" textMaxWidth="234" offsetX="26" offsetY="13" text="background-color: rgb(7,17,27,0.2)&#xD;"/>
+    <TextMark defaultDirection="9" direction="9" color="16711680" x="510" y="55" textMaxWidth="172" offsetX="57" offsetY="8" text="font-size: 32px;&#xD;color: rgb(255,255,255);&#xD;font-weight: bold;&#xD;line-height: 36px;&#xD;&#xD;"/>
+    <LengthMark direction="3" color="16711680" length="4" x="202" y="172"/>
+    <LengthMark direction="3" color="16711680" length="4" x="202" y="48"/>
+    <TextMark defaultDirection="9" direction="9" color="16711680" x="251" y="107" textMaxWidth="172" offsetX="64" offsetY="28" text="font-size: 24px;&#xD;color: rgb(255,255,255);&#xD;font-weight: 200;&#xD;line-height: 24px;&#xD;&#xD;"/>
+    <LengthMark direction="12" color="16711680" length="8" x="233" y="163"/>
+    <LengthMark direction="3" color="16711680" length="48" x="743" y="134"/>
+    <LengthMark direction="3" color="16711680" length="14" x="718" y="134"/>
+    <TextMark defaultDirection="10" direction="10" color="16711680" x="89" y="544" textMaxWidth="172" offsetX="18" offsetY="8" text="font-size: 24px;&#xD;color: rgb(240,20,20);&#xD;line-height: 28px;&#xD;&#xD;"/>
+    <LengthMark direction="12" color="16711680" length="16" x="710" y="189"/>
+    <TextMark defaultDirection="5" direction="5" color="16711680" x="682" y="146" textMaxWidth="172" offsetX="40" offsetY="30" text="font-size: 20px;&#xD;color: rgb(255, 255, 255);&#xD;font-weight: 200;&#xD;line-height: 24px;&#xD;&#xD;"/>
+    <LengthMark direction="12" color="16711680" length="24" x="726" y="244"/>
+    <LengthMark direction="12" color="16711680" length="24" x="0" y="366"/>
+    <LengthMark direction="12" color="16711680" length="8" x="698" y="250"/>
+    <LengthMark direction="12" color="16711680" length="8" x="68" y="250"/>
+    <LengthMark direction="3" color="16711680" length="56" x="141" y="212"/>
+    <TextMark defaultDirection="10" direction="10" color="16711680" x="251" y="158" textMaxWidth="172" offsetX="18" offsetY="8" text="font-size: 20px;&#xD;color: rgb(255,255,255);&#xD;font-weight: 200;&#xD;line-height: 24px;&#xD;&#xD;"/>
+    <TextMark defaultDirection="6" direction="6" color="16711680" x="651" y="169" textMaxWidth="260" offsetX="34" offsetY="28" text="  background-color: rgb(0,0,0,0.2);&#xD;"/>
+    <LengthMark direction="3" color="16711680" length="80" x="8" y="268"/>
+    <LengthMark direction="12" color="16711680" length="24" x="0" y="244"/>
+    <TextMark defaultDirection="10" direction="10" color="16711680" x="182" y="251" textMaxWidth="172" offsetX="18" offsetY="8" text="font-size: 20px;&#xD;color: rgb(255,255,255);&#xD;font-weight: 200;&#xD;line-height: 56px;&#xD;&#xD;"/>
+    <ColorMark defaultDirection="10" colorSystem="hex" direction="0" color="16711680" targetColor="15988215" offsetX="12" offsetY="5" x="37" y="434"/>
+    <TextMark defaultDirection="10" direction="10" color="16711680" x="421" y="519" textMaxWidth="172" offsetX="18" offsetY="8" text="font-size: 28px;&#xD;color: rgb(77,85,93);&#xD;line-height: 28px;&#xD;&#xD;"/>
+    <TextMark defaultDirection="10" direction="10" color="16711680" x="147" y="325" textMaxWidth="172" offsetX="18" offsetY="8" text="font-size: 28px;&#xD;color: rgb(240,20,20);&#xD;line-height: 28px;&#xD;&#xD;"/>
+    <TextMark defaultDirection="10" direction="10" color="16711680" x="213" y="858" textMaxWidth="125" offsetX="30" offsetY="9" text="line-color:&#xD;rgb(7,17,27,0.1)"/>
+    <TextMark defaultDirection="9" direction="9" color="16711680" x="53" y="1250" textMaxWidth="235" offsetX="322" offsetY="144" text="background-color: rgb(0,0,0,0.2);&#xD;"/>
+    <LengthMark direction="12" color="16711680" length="160" x="0" y="380"/>
+    <LengthMark direction="3" color="16711680" length="108" x="28" y="350"/>
+    <LengthMark direction="12" color="16711680" length="112" x="24" y="661"/>
+    <LengthMark direction="12" color="16711680" length="24" x="136" y="366"/>
+    <TextMark defaultDirection="9" direction="9" color="16711680" x="581" y="349" textMaxWidth="125" offsetX="25" offsetY="10" text="line-color:&#xD;rgb(7,17,27,0.1)"/>
+    <ColorMark defaultDirection="9" colorSystem="hex" direction="0" color="16711680" targetColor="14278113" offsetX="25" offsetY="10" x="162" y="624"/>
+    <ColorMark defaultDirection="9" colorSystem="hex" direction="0" color="16711680" targetColor="15988215" offsetX="25" offsetY="10" x="170" y="639"/>
+    <LengthMark direction="12" color="16711680" length="16" x="378" y="556"/>
+    <LengthMark direction="3" color="16711680" length="4" x="324" y="437"/>
+    <LengthMark direction="12" color="16711680" length="36" x="714" y="495"/>
+    <TextMark defaultDirection="10" direction="10" color="16711680" x="91" y="407" textMaxWidth="172" offsetX="39" offsetY="4" text="font-size: 24px;&#xD;color: rgb(240,20,20);&#xD;font-weight: 200;&#xD;line-height: 28px;&#xD;&#xD;"/>
+    <LengthMark direction="12" color="16711680" length="24" x="435" y="528"/>
+    <TextMark defaultDirection="10" direction="10" color="16711680" x="271" y="651" textMaxWidth="172" offsetX="36" offsetY="9" text="font-size: 24px;&#xD;color: rgb(147,153,159);&#xD;line-height: 52px;&#xD;&#xD;"/>
+    <LengthMark direction="3" color="16711680" length="36" x="287" y="402"/>
+    <LengthMark direction="3" color="16711680" length="36" x="325" y="587"/>
+    <TextMark defaultDirection="9" direction="9" color="16711680" x="342" y="767" textMaxWidth="172" offsetX="82" offsetY="30" text="font-size: 20px;&#xD;color: rgb(147,153,159);&#xD;line-height: 20px;&#xD;&#xD;"/>
+    <LengthMark direction="3" color="16711680" length="52" x="697" y="622"/>
+    <LengthMark direction="12" color="16711680" length="28" x="160" y="656"/>
+    <LengthMark direction="12" color="16711680" length="36" x="160" y="495"/>
+    <LengthMark direction="12" color="16711680" length="48" x="618" y="782"/>
+    <TextMark defaultDirection="9" direction="9" color="16711680" x="226" y="1261" textMaxWidth="141" offsetX="43" offsetY="41" text="line-color:&#xD;rgb(255,255,255,0.1);"/>
+    <LengthMark direction="3" color="16711680" length="116" x="105" y="1220"/>
+    <LengthMark direction="12" color="16711680" length="36" x="0" y="1270"/>
+    <LengthMark direction="3" color="16711680" length="24" x="169" y="1312"/>
+    <LengthMark direction="3" color="16711680" length="16" x="81" y="1320"/>
+    <LengthMark direction="12" color="16711680" length="16" x="734" y="1312"/>
+    <LengthMark direction="12" color="16711680" length="88" x="36" y="1312"/>
+    <LengthMark direction="12" color="16711680" length="36" x="124" y="1312"/>
+    <LengthMark direction="12" color="16711680" length="24" x="206" y="1312"/>
+    <LengthMark direction="12" color="16711680" length="24" x="231" y="1312"/>
+    <TextMark defaultDirection="5" direction="5" color="16711680" x="700" y="786" textMaxWidth="172" offsetX="100" offsetY="100" text="font-size: 48px;&#xD;color: rgb(0,160,220);&#xD;line-height: 48px;&#xD;&#xD;"/>
+    <TextMark defaultDirection="9" direction="9" color="16711680" x="385" y="1276" textMaxWidth="180" offsetX="153" offsetY="153" text="font-size: 32px;&#xD;color: rgb(255,255,255,0.4);&#xD;font-weight: 700;&#xD;line-height: 48px;&#xD;&#xD;"/>
+    <TextMark defaultDirection="6" direction="6" color="16711680" x="643" y="813" textMaxWidth="172" offsetX="67" offsetY="18" text="font-size: 20px;&#xD;color: rgb(147,153,159);&#xD;line-height: 48px;&#xD;&#xD;"/>
+    <LengthMark direction="3" color="16711680" length="12" x="81" y="1220"/>
+    <LengthMark direction="3" color="16711680" length="44" x="665" y="1220"/>
+    <TextMark defaultDirection="9" direction="9" color="16711680" x="78" y="1252" textMaxWidth="172" offsetX="253" offsetY="217" text="font-size: 48px;&#xD;color: rgb(255,255,255,0.4);&#xD;line-height: 48px;&#xD;&#xD;"/>
+    <TextMark defaultDirection="5" direction="5" color="16711680" x="614" y="1277" textMaxWidth="205" offsetX="37" offsetY="37" text="font-size: 24px;&#xD;color: rgb(255,255,255,0.4);&#xD;font-weight: 700;&#xD;line-height: 48px;&#xD;&#xD;"/>
+    <ColorMark defaultDirection="9" colorSystem="hex" direction="0" color="16711680" targetColor="1318183" offsetX="25" offsetY="10" x="288" y="1325"/>
+    <TextMark defaultDirection="10" direction="10" color="16711680" x="30" y="671" textMaxWidth="125" offsetX="30" offsetY="9" text="line-color:&#xD;rgb(7,17,27,0.1)"/>
+    <LengthMark direction="3" color="16711680" length="44" x="169" y="1220"/>
+    <LengthMark direction="12" color="16711680" length="210" x="540" y="1325"/>
+    <TextMark defaultDirection="9" direction="9" color="16711680" x="163" y="1274" textMaxWidth="217" offsetX="140" offsetY="129" text="font-size: 32px;&#xD;color: rgb(255,255,255,0.4);&#xD;font-weight: 700;&#xD;line-height: 48px;&#xD;&#xD;"/>
+    <LengthMark direction="12" color="16711680" length="24" x="516" y="1312"/>
+    <LengthMark direction="12" color="16711680" length="16" x="540" y="1312"/>
+    <TextMark defaultDirection="9" direction="9" color="16711680" x="258" y="31" textMaxWidth="218" offsetX="25" offsetY="10" text="color:rgba(7,17,27,0.5)&#xD;blur:10px"/>
+    <LengthMark direction="12" color="16711680" length="116" x="195" y="525"/>
+    <LengthMark direction="3" color="16711680" length="105" x="637" y="769"/>
+  </Marks>
+</MKM>
