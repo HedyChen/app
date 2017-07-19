@@ -2,7 +2,7 @@
   <div class="goods">
     <div class="menu-wrapper" id="menu-scroll">
       <ul>
-        <li v-for="item in goods" class="menu-item">
+        <li v-for="(item,index) in goods" class="menu-item" :class="{'current':currentIndex==index}" @click="selectMenu(index,$event)">
           <span class="text border-1px"><span v-show="item.type>0" class="icon" :class="classMap[item.type]"></span>{{item.name}}</span>
         </li>
       </ul>
@@ -57,7 +57,7 @@
         for (let i = 0; i < this.listHeight.length; i++) {
           let height1 = this.listHeight[i];
           let heoght2 = this.listHeight[i + 1];
-          if (!heoght2 || (this.scrollY > height1 && this.scrollY < heoght2)) {
+          if (!heoght2 || (this.scrollY >= height1 && this.scrollY < heoght2)) {
             return i;
           }
         }
@@ -78,7 +78,9 @@
     },
     methods: {
       _initScroll () {
-        this.menuScroll = new Bscroll(document.getElementById('menu-scroll'), {});
+        this.menuScroll = new Bscroll(document.getElementById('menu-scroll'), {
+          click: true
+        });
         this.foodScroll = new Bscroll(document.getElementById('foods-scroll'), {
           probeType: 3
         });
@@ -95,6 +97,14 @@
           height += item.clientHeight;
           this.listHeight.push(height);
         }
+      },
+      selectMenu (index, event) {
+        if (!event._constructed) {
+          return;
+        }
+        let foodList = this.$el.getElementsByClassName('food-list-hook');
+        let el = foodList[index];
+        this.foodScroll.scrollToElement(el, 300);
       }
     }
   };
@@ -113,19 +123,19 @@
       flex 0 0 80px
       width 80px
       background #f3f5f7
-      .current
-        position relative
-        margin-top -1px
-        z-index 10
-        background #fff
-        font-weight 700
-        border none
       .menu-item
         display table
         height 54px
         width 56px
         padding 0 12px
         font-size 12px
+        &.current
+          position relative
+          margin-top -1px
+          z-index 10
+          background #fff
+          font-weight 700
+          border-1px(#fff)
         .text
           display table-cell
           width 56px
