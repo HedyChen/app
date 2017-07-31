@@ -7,7 +7,7 @@
             <i class="icon-shopping_cart"></i>
           </div>
         </div>
-        <div class="price">￥0</div>
+        <div class="price">￥{{totalPrice}}</div>
         <div class="desc">另需配送费￥{{deliveryPrice}}元</div>
       </div>
       <div class="content-right">
@@ -35,6 +35,15 @@
       minPrice: {
         type: Number,
         defalut: 0
+      }
+    },
+    computed: {
+      totalPrice () {
+        let total = 0;
+        this.selectFoods.forEach((food) => {
+          total += food.price * food.count;
+        });
+        return total;
       }
     }
   };
@@ -64,7 +73,7 @@
           box-sizing border-box
           vertical-align top
           border-radius 50%
-          background #000
+          background #14172d
           display inline-block
           .logo
             width 100%
