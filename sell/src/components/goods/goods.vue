@@ -26,19 +26,23 @@
                   <span class="now">￥{{food.price}}</span>
                   <span v-show="food.oldPrice" class="old">￥{{food.oldPrice}}</span>
                 </div>
+                <div class="cartcontrol-wrapper">
+                  <cartControl :food="food"></cartControl>
+                </div>
               </div>
             </li>
           </ul>
         </li>
       </ul>
     </div>
-    <shopcart :deliveryPrice="seller.deliveryPrice" :minPrice="seller.minPrice"></shopcart>
+    <shopcart :deliveryPrice="seller.deliveryPrice" :minPrice="seller.minPrice" :select-foods="selectFoods"></shopcart>
   </div>
 </template>
 
 <script>
   import Bscroll from 'better-scroll';
   import shopcart from '../shopcart/shopcart.vue';
+  import cartControl from '../cartcontrol/cartcontrol.vue';
   const ERR_OK = 0;
 
   export default {
@@ -63,6 +67,17 @@
             return i;
           }
         }
+      },
+      selectFoods () {
+        let foods = [];
+        this.goods.forEach((good) => {
+          good.foods.forEach((food) => {
+            if (food.count) {
+              foods.push(good);
+            }
+          });
+        });
+        return foods;
       }
     },
     created () {
@@ -84,7 +99,8 @@
           click: true
         });
         this.foodScroll = new Bscroll(document.getElementById('foods-scroll'), {
-          probeType: 3
+          probeType: 3,
+          click: true
         });
         this.foodScroll.on('scroll', (pos) => {
           this.scrollY = Math.abs(Math.round(pos.y));
@@ -110,7 +126,8 @@
       }
     },
     components: {
-      shopcart
+      shopcart,
+      cartControl
     }
   };
 </script>
@@ -219,4 +236,8 @@
               font-size 10px
               text-decoration line-through
               color rgb(147,153,159)
+          .cartcontrol-wrapper
+            position absolute
+            bottom 0
+            right 0
 </style>
