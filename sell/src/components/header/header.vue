@@ -18,7 +18,7 @@
         </div>
       </div>
       <div class="support-count" @click="showDetali">
-      	<span class="count">{{seller.supports.length}}个</span>
+      	<span class="count">{{seller.supports ? seller.supports.length : 0}}个</span>
       	<i class="icon-keyboard_arrow_right"></i>
       </div>
     </div>
@@ -81,7 +81,10 @@
       }
     },
     props: {
-      seller: Object
+      seller: {
+        type: Object,
+        default: {}
+      }
     },
     created () {
       this.classMap = ['decrease', 'discount', 'special', 'invoice', 'guarantee'];
