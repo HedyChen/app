@@ -62,8 +62,8 @@
       currentIndex () {
         for (let i = 0; i < this.listHeight.length; i++) {
           let height1 = this.listHeight[i];
-          let heoght2 = this.listHeight[i + 1];
-          if (!heoght2 || (this.scrollY >= height1 && this.scrollY < heoght2)) {
+          let height2 = this.listHeight[i + 1];
+          if (!height2 || (this.scrollY >= height1 && this.scrollY < height2)) {
             return i;
           }
         }
@@ -73,7 +73,7 @@
         this.goods.forEach((good) => {
           good.foods.forEach((food) => {
             if (food.count) {
-              foods.push(good);
+              foods.push(food);
             }
           });
         });
