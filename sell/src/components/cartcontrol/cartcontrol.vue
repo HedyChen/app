@@ -79,5 +79,4 @@
     .fade-enter, .fade-leave-to
       opacity: 0
       transform translate3D(24px,0,0)
-
 </style>
