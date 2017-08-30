@@ -9,13 +9,13 @@
     <TextMark defaultDirection="5" direction="5" color="16711680" x="661" y="754" textMaxWidth="138" offsetX="64" offsetY="17" text="font-size:24px&#xD;color:rgb(0,160,220)&#xD;line-height:80px&#xD;&#xD;"/>
     <LengthMark direction="3" color="16711680" length="80" x="7" y="725"/>
     <TextMark defaultDirection="6" direction="6" color="16711680" x="637" y="864" textMaxWidth="164" offsetX="178" offsetY="105" text="font-size:20px&#xD;color:rgb(147,153,159)&#xD;line-height:48px&#xD;&#xD;"/>
-    <TextMark defaultDirection="6" direction="6" color="16711680" x="525" y="869" textMaxWidth="168" offsetX="75" offsetY="15" text="font-size:20px/28px&#xD;font-weight:normal/700&#xD;color:rgb(240,20,20)&#xD;line-height:48px&#xD;&#xD;"/>
+    <TextMark defaultDirection="6" direction="6" color="16711680" x="524" y="869" textMaxWidth="168" offsetX="75" offsetY="15" text="font-size:20px/28px&#xD;font-weight:normal/700&#xD;color:rgb(240,20,20)&#xD;line-height:48px&#xD;&#xD;"/>
     <LengthMark direction="3" color="16711680" length="611" x="732" y="725"/>
     <TextMark defaultDirection="9" direction="9" color="16711680" x="141" y="1237" textMaxWidth="310" offsetX="223" offsetY="63" text="background-color: rgb(240, 20, 20);&#xD;box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.4);&#xD;&#xD;"/>
     <LengthMark direction="12" color="16711680" length="36" x="0" y="711"/>
     <LengthMark direction="12" color="16711680" length="36" x="457" y="874"/>
     <LengthMark direction="12" color="16711680" length="24" x="546" y="875"/>
-    <TextMark defaultDirection="9" direction="9" color="16711680" x="231" y="840" textMaxWidth="123" offsetX="36" offsetY="23" text="font-size:28px&#xD;color:rgb(7,17,27)&#xD;line-height:48px&#xD;&#xD;"/>
+    <TextMark defaultDirection="9" direction="9" color="16711680" x="226" y="842" textMaxWidth="123" offsetX="36" offsetY="23" text="font-size:28px&#xD;color:rgb(7,17,27)&#xD;line-height:48px&#xD;&#xD;"/>
     <LengthMark direction="3" color="16711680" length="24" x="185" y="877"/>
     <LengthMark direction="3" color="16711680" length="24" x="185" y="805"/>
     <TextMark defaultDirection="5" direction="5" color="16711680" x="589" y="830" textMaxWidth="123" offsetX="45" offsetY="30" text="font-size:48px&#xD;color:rgb(7,17,27)&#xD;line-height:48px&#xD;&#xD;"/>
