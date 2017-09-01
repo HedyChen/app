@@ -1,34 +1,36 @@
 <template>
   <transition name="fade">
     <div v-show="showFlag" class="food" id="scroll">
-      <div class="image-header">
-        <img :src="food.image"/>
-        <div class="back" @click="hide">
-          <i class="icon-arrow_lift"></i>
+      <div>
+        <div class="image-header">
+          <img :src="food.image"/>
+          <div class="back" @click="hide">
+            <i class="icon-arrow_lift"></i>
+          </div>
         </div>
-      </div>
-      <div class="content">
-        <h1 class="title">{{food.name}}</h1>
-        <div class="food-detail">
-          <span class="sell-count">月售{{food.sellCount}}份</span>
-          <span class="rating">好评率{{food.rating}}%</span>
+        <div class="content">
+          <h1 class="title">{{food.name}}</h1>
+          <div class="food-detail">
+            <span class="sell-count">月售{{food.sellCount}}份</span>
+            <span class="rating">好评率{{food.rating}}%</span>
+          </div>
+          <div class="price">
+            <span class="now">￥{{food.price}}</span><span v-show="food.oldPrice" class="old">￥{{food.oldPrice}}</span>
+          </div>
+          <div class="cartcontrol-wrapper">
+            <cartcontrol :food="food"></cartcontrol>
+          </div>
+          <div class="buy" v-show="!food.count || food.count==0" @click.stop.prevent="addFirst">加入购物车</div>
         </div>
-        <div class="price">
-          <span class="now">￥{{food.price}}</span><span v-show="food.oldPrice" class="old">￥{{food.oldPrice}}</span>
+        <split v-show="food.info"></split>
+        <div class="info" v-show="food.info">
+          <h1 class="title">商品信息</h1>
+          <p class="text">{{food.info}}</p>
         </div>
-        <div class="cartcontrol-wrapper">
-          <cartcontrol :food="food"></cartcontrol>
+        <split></split>
+        <div class="rating">
+          <h1 class="title">商品评价</h1>
         </div>
-        <div class="buy" v-show="!food.count || food.count==0" @click.stop.prevent="addFirst">加入购物车</div>
-      </div>
-      <split v-show="food.info"></split>
-      <div class="info" v-show="food.info">
-        <h1 class="title">商品信息</h1>
-        <p class="text">{{food.info}}</p>
-      </div>
-      <div class="info" v-show="food.info">
-        <h1 class="title">商品信息</h1>
-        <p class="text">{{food.info}}</p>
       </div>
     </div>
   </transition>
