@@ -30,6 +30,7 @@
         <split></split>
         <div class="rating">
           <h1 class="title">商品评价</h1>
+          <ratingselect :select-type="selectType" :only-content="onlyContent" :desc="desc" :ratings="food.ratings"></ratingselect>
         </div>
       </div>
     </div>
@@ -41,10 +42,26 @@
   import cartcontrol from '../cartcontrol/cartcontrol.vue';
   import Vue from 'vue';
   import split from '../split/split.vue';
+  import ratingselect from '../ratingSelect/ratingSelect.vue';
+
+  // const POSITIVE = 0;
+  // 好评
+  // const NEGATIVE = 1;
+  // 差评
+  const ALL = 2;
+  // 所有的评价
+
   export default {
     data () {
       return {
-        showFlag: false
+        showFlag: false,
+        selectType: ALL,
+        onlyContent: true,
+        desc: {
+          all: '全部',
+          positive: '推荐',
+          negative: '吐槽'
+        }
       };
     },
     props: {
@@ -55,6 +72,8 @@
     methods: {
       show () {
         this.showFlag = true;
+        this.selectType = ALL;
+        this.onlyContent = true;
         this.$nextTick(() => {
           if (!this.scroll) {
             this.scroll = new Bscroll(document.getElementById('scroll'), {
@@ -77,7 +96,8 @@
     },
     components: {
       cartcontrol,
-      split
+      split,
+      ratingselect
     }
   };
 </script>
@@ -133,7 +153,7 @@
       .sell-count,.rating
         font-size 10px
         color rgb(147,153,159)
-      &.sell-count
+      .sell-count
         margin-right 12px
     .price
       line-height 24px
@@ -173,4 +193,11 @@
       padding 0 8px
       color rgb(77,85,93)
       line-height 24px
+  .rating
+    padding-top 18px
+    .title
+      line-height 14px
+      font-size 14px
+      color rgb(7,17,27)
+      margin-left 18px
 </style>
