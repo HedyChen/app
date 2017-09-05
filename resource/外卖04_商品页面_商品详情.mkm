@@ -58,7 +58,7 @@
     <TextMark defaultDirection="9" direction="9" color="16711680" x="94" y="1402" textMaxWidth="184" offsetX="259" offsetY="166" text="font-size:24px/16px&#xD;color:rgb(255,255,255)&#xD;line-height:32px"/>
     <TextMark defaultDirection="6" direction="6" color="16711680" x="684" y="923" textMaxWidth="147" offsetX="41" offsetY="25" text="  border-radius:24px;&#xD;  background-color: rgb(0,160,220);&#xD; "/>
     <TextMark defaultDirection="9" direction="9" color="16711680" x="147" y="1399" textMaxWidth="213" offsetX="345" offsetY="93" text="  border-radius:24px;&#xD;  background-color: rgb(0,160,220);&#xD; "/>
-    <TextMark defaultDirection="9" direction="9" color="16711680" x="295" y="1405" textMaxWidth="246" offsetX="150" offsetY="23" text="border-radius:2px;&#xD;background-color: rgba(0,160,220,0.2);&#xD; "/>
+    <TextMark defaultDirection="9" direction="9" color="16711680" x="331" y="1399" textMaxWidth="246" offsetX="150" offsetY="23" text="border-radius:2px;&#xD;background-color: rgba(0,160,220,0.2);&#xD; "/>
     <TextMark defaultDirection="9" direction="9" color="16711680" x="224" y="1406" textMaxWidth="184" offsetX="112" offsetY="73" text="font-size:24px/16px&#xD;color:rgb(77,85,93)&#xD;line-height:32px"/>
     <TextMark defaultDirection="9" direction="5" color="16711680" x="609" y="1618" textMaxWidth="162" offsetX="29" offsetY="13" text="font-size:20px&#xD;color:rgb(147,153,159)&#xD;line-height:24px"/>
     <TextMark defaultDirection="9" direction="9" color="16711680" x="283" y="1533" textMaxWidth="184" offsetX="29" offsetY="13" text="font-size:24px&#xD;color:rgb(147,153,159)&#xD;line-height:48px"/>

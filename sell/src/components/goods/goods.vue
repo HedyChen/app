@@ -127,7 +127,7 @@
         let el = foodList[index];
         this.foodScroll.scrollToElement(el, 300);
       },
-      selectFood (food, $event) {
+      selectFood (food, event) {
         if (!event._constructed) {
           return;
         }
